@@ -7,3 +7,4 @@ The following repositories contain Terminal code:
 C#
 terminalSalesforce
 terminalSlack
+git st
