@@ -2,8 +2,8 @@
 
 * [Fr8 for Users](https://github.com/Fr8org/Fr8Core.NET/blob/master/ForUsers/Fr8ForUsers.md)  
 * [Fr8 For Developers]()  
-    - [Part 1 - Introduction]()  
-    - [Part 2 - Understanding the Fr8 Architectural Model]()  
+    - [Part 1 - Introduction](https://github.com/Fr8org/Fr8Core.NET/blob/master/ForDevelopers/Introduction.md)   
+    - [Part 2 - Understanding the Fr8 Architectural Model](https://github.com/Fr8org/Fr8Core.NET/blob/master/ForDevelopers/ArchitecturalModel.md)   
     - [Part 3 - The Fr8 Data Model]()  
     - [Operating Concepts]()  
         * [Fr8 Modes]()  
