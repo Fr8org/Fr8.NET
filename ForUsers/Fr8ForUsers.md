@@ -3,7 +3,7 @@ Fr8 is a cloud workflow solution. It provides an easy-to-use environment where u
 ![mailmerge](https://github.com/Fr8org/Fr8Core.NET/blob/master/img/Fr8ForUsers_MailMerge.png)  
 
 And here's a video of that Plan in action:  
-![Video](https://vimeo.com/162762690)
+[Video](https://vimeo.com/162762690)  
 Hubs and Terminals: Where Work Gets Done  
 
 Fr8 Plans are assembled out of individual Activities, represented by the cards that you see above.  

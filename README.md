@@ -1,6 +1,6 @@
 #Fr8  
 
-* [Fr8 for Users](https://github.com/Fr8org/Fr8Core.NET/blob/master/ForUsers/Fr8ForUsers)  
+* [Fr8 for Users](https://github.com/Fr8org/Fr8Core.NET/blob/master/ForUsers/Fr8ForUsers.md)  
 * [Fr8 For Developers]()  
     - [Part 1 - Introduction]()  
     - [Part 2 - Understanding the Fr8 Architectural Model]()  
