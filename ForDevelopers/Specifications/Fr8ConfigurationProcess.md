@@ -4,7 +4,7 @@
  
  Fr8 has 3 Modes:
 
- | Mode | Description |
+ | Mode | Description |  
  | ----------- |:-------------------------------------------------:|  
 | Design Mode | Design Creation Mode allows Fr8 users to create and modify Fr8 Plans and Activities. This is the domain of the Power User, with full access to the Plan Builder. | 
 |  Data Entry Mode | In Data Entry Mode, users can configure Activities but not modify Plans.  Power Users can configure Plans to be executed by unsophisticated users in Data Entry Mode, and those users will not see complex menus. |  
