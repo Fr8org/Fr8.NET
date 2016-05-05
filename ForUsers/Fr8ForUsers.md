@@ -4,19 +4,19 @@ Fr8 is a cloud workflow solution. It provides an easy-to-use environment where u
 
 And here's a video of that Plan in action:  
 [Video](https://vimeo.com/162762690)  
-## H2  Hubs and Terminals: Where Work Gets Done  
+###   Hubs and Terminals: Where Work Gets Done  
 
 Fr8 Plans are assembled out of individual Activities, represented by the cards that you see above.  
 
-## H2 Crates and Containers: Where Data Lives  
+###  Crates and Containers: Where Data Lives  
 
 When you run a Plan, Fr8 creates a Container to hold your data. Inside the container your data is sotred in Crates. The main Fr8 service routes the Container as it travels from Activity to Activity.  
 
-## H2 Hubs and Terminals: Where Work Gets Done  
+###  Hubs and Terminals: Where Work Gets Done  
 
 Fr8 Plans are assembled out of individual Activities, represented by the cards that you see above.  
 
-## H2 Crates and Containers: Where Data Lives  
+###  Crates and Containers: Where Data Lives  
 
 When you run a Plan, Fr8 creates a Container to hold your data. Inside the container your data is sotred in Crates. The main Fr8 service routes the Container as it travels from Activity to Activity.  
 
