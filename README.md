@@ -2,8 +2,8 @@
 
 * [Fr8 for Users](https://www.google.com)  
 * [Fr8 For Developers]()  
-    - [[Part 1 - Introduction]()  
-    - [[Part 2 - Understanding the Fr8 Architectural Model]()  
+    - [Part 1 - Introduction]()  
+    - [Part 2 - Understanding the Fr8 Architectural Model]()  
     - [Part 3 - The Fr8 Data Model]()  
     - [Operating Concepts]()  
         * [Fr8 Modes]()  
