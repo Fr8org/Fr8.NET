@@ -24,6 +24,6 @@ This architecture also allows Terminals to be very nuanced. There might end up b
 
 The Fr8 Hub has no knowledge about the Fr8 Terminals it works with, beyond what it discovers when it starts up. That means that individual Terminals and their Activities can be upgraded, patched, and extended independently of the Hubs and client code.  
 
-Part 2 – Understanding the Fr8 Architectural Model  
+[Part 2 – Understanding the Fr8 Architectural Model](https://github.com/Fr8org/Fr8Core.NET/blob/master/ForDevelopers/ArchitecturalModel.md)  
 
 [Go to Contents](https://github.com/Fr8org/Fr8Core.NET/blob/master/README.md)  
