@@ -1,14 +1,14 @@
-FR8 MODES
+# FR8 MODES
 
 [Go to Contents](https://github.com/Fr8org/Fr8Core.NET/blob/master/README.md)  
 ### Fr8 has 3 Modes:
 
-| ----------- |:-------------------------------------------------:|--------:|
-| Design Mode | Design Creation Mode allows Fr8 users to create and modify Fr8 Plans and Activities. This is the domain of the Power User, with full access to the Plan Builder. |
-|  Data Entry Mode | In Data Entry Mode, users can configure Activities but not modify Plans.  Power Users can configure Plans to be executed by unsophisticated users in Data Entry Mode, and those users will not see complex menus. |
-| Activation Mode |When a Plan is first constructed and then Run, the Hub will seek to Activate it. |
-| Run Mode | Run Mode is non-interactive.
-Design Mode
+| ----------- |:-------------------------------------------------:|--------:|  
+| Design Mode | Design Creation Mode allows Fr8 users to create and modify Fr8 Plans and Activities. This is the domain of the Power User, with full access to the Plan Builder. |  
+|  Data Entry Mode | In Data Entry Mode, users can configure Activities but not modify Plans.  Power Users can configure Plans to be executed by unsophisticated users in Data Entry Mode, and those users will not see complex menus. |  
+| [Activation Mode]((https://github.com/Fr8org/Fr8Core.NET/blob/master/ForDevelopers/Specifications/PlanActivationAndRunning.md)) |When a Plan is first constructed and then Run, the Hub will seek to Activate it. |  
+| [Run Mode]((https://github.com/Fr8org/Fr8Core.NET/blob/master/ForDevelopers/Specifications/PlanActivationAndRunning.md)) | Run Mode is non-interactive. |  
+### Design Mode
 
 The core of Design Modeis the configuration process, which allows a Fr8 client to display to the user custom UI that’s specific to each Fr8 Activity. This provides a consistent user experience and frees Terminal and Activity builders from having to deal with front-end issues while giving them the opportunity collect any necessary configuration data from the user.
 
