@@ -30,10 +30,10 @@
         * [Terminal Specification](https://github.com/Fr8org/Fr8Core.NET/blob/master/ForDevelopers/Specifications/TerminalSpecification.md)  
     - Development Guides  
         * [Activity Development Guide](https://github.com/Fr8org/Fr8Core.NET/blob/master/ForDevelopers/DevelopmentGuides/ActivityDevelopmentGuide.md)  
-        * [Crate Development Guide]](https://github.com/Fr8org/Fr8Core.NET/blob/master/ForDevelopers/DevelopmentGuides/CrateDevelopmentGuide.md)    
-        *[Terminal Development Guide]](https://github.com/Fr8org/Fr8Core.NET/blob/master/ForDevelopers/DevelopmentGuides/TerminalDevelopmentGuide.md)  
-        * [Configuration Controls]](https://github.com/Fr8org/Fr8Core.NET/blob/master/ForDevelopers/DevelopmentGuides/ConfigurationControls.md)    
+        * [Crate Development Guide](https://github.com/Fr8org/Fr8Core.NET/blob/master/ForDevelopers/DevelopmentGuides/CrateDevelopmentGuide.md)    
+        * [Terminal Development Guide](https://github.com/Fr8org/Fr8Core.NET/blob/master/ForDevelopers/DevelopmentGuides/TerminalDevelopmentGuide.md)  
+        * [Configuration Controls](https://github.com/Fr8org/Fr8Core.NET/blob/master/ForDevelopers/DevelopmentGuides/ConfigurationControls.md)    
     - Tutorials  
-        * [Tutorial: A Basic Twilio Terminal That Can Send an SMS Message](](https://github.com/Fr8org/Fr8Core.NET/blob/master/ForDevelopers/Tutorials/TwilioTutorial.md)    
-        * [Tutorial: Create a Fr8 Plan, Import Spreadsheet Data, and Distribute the Data by an Email Activity]](https://github.com/Fr8org/Fr8Core.NET/blob/master/ForDevelopers/DevelopmentGuides/Tutorials/CreateImportDistributeTutorial.md)    
+        * [Tutorial: A Basic Twilio Terminal That Can Send an SMS Message](https://github.com/Fr8org/Fr8Core.NET/blob/master/ForDevelopers/Tutorials/TwilioTutorial.md)    
+        * [Tutorial: Create a Fr8 Plan, Import Spreadsheet Data, and Distribute the Data by an Email Activity](https://github.com/Fr8org/Fr8Core.NET/blob/master/ForDevelopers/DevelopmentGuides/Tutorials/CreateImportDistributeTutorial.md)    
 
