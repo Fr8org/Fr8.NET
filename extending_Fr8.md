@@ -1,8 +1,5 @@
-
-
-
 ## Building a Terminal (.NET Instructions)  
-- Installing Fr8 Locally  
+- [Installing Fr8 Locally](Docs/InstallingFr8Locally.md)
     - Starting up a Hub  
     - Starting up existing Terminals  
 - Building a Fr8 Terminal  
