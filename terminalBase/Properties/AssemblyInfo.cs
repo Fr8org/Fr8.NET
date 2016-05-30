@@ -6,12 +6,12 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("TerminalBase")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("fr8 base .NET terminal")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Microsoft")]
+[assembly: AssemblyCompany("fr8")]
 [assembly: AssemblyProduct("TerminalBase")]
-[assembly: AssemblyCopyright("Copyright © Microsoft 2015")]
-[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCopyright("Copyright © fr8 2016")]
+[assembly: AssemblyTrademark("fr8")]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible 

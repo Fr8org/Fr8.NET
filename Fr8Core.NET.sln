@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fr8Infrastructure", "Fr8Inf
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TerminalBase", "terminalBase\TerminalBase.csproj", "{D6A0A493-E926-439A-9CE2-E093E75132CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utilities", "Utilities\Utilities.csproj", "{D6C86CFF-37C0-49BE-9F77-4F876CE6A793}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fr8Utilities", "Utilities\fr8Utilities.csproj", "{D6C86CFF-37C0-49BE-9F77-4F876CE6A793}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

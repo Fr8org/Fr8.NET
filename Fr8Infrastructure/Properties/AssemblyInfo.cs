@@ -5,13 +5,13 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Infrastructure")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("fr8Infrastructure")]
+[assembly: AssemblyDescription("fr8 Core.NET security infrastructure")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Infrastructure")]
+[assembly: AssemblyCompany("fr8")]
+[assembly: AssemblyProduct("fr8Infrastructure")]
 [assembly: AssemblyCopyright("Copyright ©  2016")]
-[assembly: AssemblyTrademark("")]
+[assembly: AssemblyTrademark("fr8")]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible 
