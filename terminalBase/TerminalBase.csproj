@@ -176,8 +176,8 @@
       <Project>{9f4b5c92-3535-4d4c-b1e4-37beb1ae5c42}</Project>
       <Name>Fr8Infrastructure</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Utilities\fr8Utilities.csproj">
-      <Project>{D6C86CFF-37C0-49BE-9F77-4F876CE6A793}</Project>
+    <ProjectReference Include="..\fr8Utilities\fr8Utilities.csproj">
+      <Project>{d6c86cff-37c0-49be-9f77-4f876ce6a793}</Project>
       <Name>fr8Utilities</Name>
     </ProjectReference>
   </ItemGroup>
