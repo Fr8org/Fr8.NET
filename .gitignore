@@ -146,3 +146,4 @@ Views/Shared/CDN/
 /log4net.terminals.Demo.config
 /log4net.terminals.config
 *.csproj.DotSettings
+*.nupkg
