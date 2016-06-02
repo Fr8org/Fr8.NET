@@ -17,8 +17,8 @@ namespace TerminalBase.BaseClasses
         private StandardConfigurationControlsCM _configurationControls;
         protected StandardConfigurationControlsCM ConfigurationControls => _configurationControls ?? (_configurationControls = GetConfigurationControls());
 
-        protected BaseTerminalActivity(bool isAuthenticationRequired, ICrateManager crateManager)
-          : base(isAuthenticationRequired, crateManager)
+        protected BaseTerminalActivity(ICrateManager crateManager)
+          : base(crateManager)
         {
         }
 

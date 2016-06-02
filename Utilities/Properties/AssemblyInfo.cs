@@ -1,16 +1,15 @@
 ﻿using System.Reflection;
-using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Fr8Data")]
-[assembly: AssemblyDescription("fr8 Core .NET DTO classes")]
+[assembly: AssemblyTitle("fr8Utilities")]
+[assembly: AssemblyDescription("fr8 utilities")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("fr8")]
-[assembly: AssemblyProduct("Fr8Data")]
-[assembly: AssemblyCopyright("Copyright ©  2016")]
+[assembly: AssemblyProduct("fr8Utilities")]
+[assembly: AssemblyCopyright("Copyright ©  2014")]
 [assembly: AssemblyTrademark("fr8")]
 [assembly: AssemblyCulture("")]
 
@@ -20,7 +19,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("a3178d71-a2c3-45b9-8334-adcc7c313541")]
+[assembly: Guid("61e86ebe-23b9-46e8-b4bb-cf4be9003c37")]
 
 // Version information for an assembly consists of the following four values:
 //
@@ -32,5 +31,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.0.6")]
+[assembly: AssemblyVersion("1.0.0.4")]
 [assembly: AssemblyFileVersion("1.0.0.0")]

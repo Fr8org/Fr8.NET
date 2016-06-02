@@ -7,7 +7,7 @@
     <ProjectGuid>{D6A0A493-E926-439A-9CE2-E093E75132CD}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TerminalBase</RootNamespace>
+    <RootNamespace>fr8.TerminalBase</RootNamespace>
     <AssemblyName>fr8TerminalBase</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -168,20 +168,19 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Fr8Data\fr8Data.csproj">
+    <ProjectReference Include="..\Data\Data.csproj">
       <Project>{a3178d71-a2c3-45b9-8334-adcc7c313541}</Project>
-      <Name>fr8Data</Name>
+      <Name>Data</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Fr8Infrastructure\fr8Infrastructure.csproj">
+    <ProjectReference Include="..\Infrastructure\Infrastructure.csproj">
       <Project>{9f4b5c92-3535-4d4c-b1e4-37beb1ae5c42}</Project>
-      <Name>fr8Infrastructure</Name>
+      <Name>Infrastructure</Name>
     </ProjectReference>
-    <ProjectReference Include="..\fr8Utilities\fr8Utilities.csproj">
+    <ProjectReference Include="..\Utilities\Utilities.csproj">
       <Project>{d6c86cff-37c0-49be-9f77-4f876ce6a793}</Project>
-      <Name>fr8Utilities</Name>
+      <Name>Utilities</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
