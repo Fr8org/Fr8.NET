@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace fr8.Data.DataTransferObjects
+namespace Fr8Data.DataTransferObjects
 {
     public class DocumentationResponseDTO
     {

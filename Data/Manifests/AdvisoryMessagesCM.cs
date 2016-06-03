@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using fr8.Data.DataTransferObjects;
 using Fr8Data.Constants;
+using Fr8Data.DataTransferObjects;
 using Fr8Data.Manifests;
 using Newtonsoft.Json;
 
-namespace fr8.Data.Manifests
+namespace Fr8Data.Manifests
 {
     public class AdvisoryMessagesCM : Manifest
     {

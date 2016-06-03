@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 
-namespace fr8.Data.DataTransferObjects
+namespace Fr8Data.DataTransferObjects
 {
     public class AdvisoryMessageDTO
     {
