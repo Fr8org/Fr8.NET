@@ -251,9 +251,9 @@ namespace TerminalBase.BaseClasses
             await HubCommunicator.NotifyUser(notificationMsg);
         }
 
-        public SolutionPageDTO GetDefaultDocumentation(string solutionName, double solutionVersion, string terminalName, string body)
+        public DocumentationResponseDTO GetDefaultDocumentation(string solutionName, double solutionVersion, string terminalName, string body)
         {
-            var curSolutionPage = new SolutionPageDTO
+            var curSolutionPage = new DocumentationResponseDTO
             {
                 Name = solutionName,
                 Version = solutionVersion,
@@ -264,9 +264,9 @@ namespace TerminalBase.BaseClasses
             return curSolutionPage;
         }
 
-        public SolutionPageDTO GenerateErrorResponse(string errorMessage)
+        public DocumentationResponseDTO GenerateErrorResponse(string errorMessage)
         {
-            return new SolutionPageDTO
+            return new DocumentationResponseDTO
             {
                 Body = errorMessage,
                 //Type = ActivityResponse.ShowDocumentation.ToString()
@@ -274,9 +274,9 @@ namespace TerminalBase.BaseClasses
         }
 
 
-        public SolutionPageDTO GenerateDocumentationResponse(string documentation)
+        public DocumentationResponseDTO GenerateDocumentationResponse(string documentation)
         {
-            return new SolutionPageDTO
+            return new DocumentationResponseDTO
             {
                 Body = documentation,
                 //Type = ActivityResponse.ShowDocumentation.ToString()
