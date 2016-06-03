@@ -37,44 +37,5 @@ namespace TerminalBase.Services
         {
             return await _hubCommunicator.GetCratesByDirection(ActivityId, direction);
         }
-
-        public async Task<FieldDescriptionsCM> GetFieldDescriptions(CrateDirection direction, AvailabilityType availability)
-        {
-            return await _hubCommunicator.GetDesignTimeFieldsByDirection(ActivityId, direction, availability);
-        }
-
-        public async Task<Crate<FieldDescriptionsCM>> GetFieldDescriptionsCrate(string label, AvailabilityType availability)
-        {
-            var curUpstreamFields = await _hubCommunicator.GetDesignTimeFieldsByDirection(ActivityId, CrateDirection.Upstream, availability);
-            return Crate<FieldDescriptionsCM>.FromContent(label, curUpstreamFields);
-        }
-
-        public async Task<List<CrateManifestType>> GetUpstreamManifestList()
-        {
-            var upstreamCrates = await GetCratesByDirection<Manifest>(CrateDirection.Upstream);
-            return upstreamCrates/*.Where(x => !BaseTerminalActivity.ExcludedManifestTypes.Contains(x.ManifestType))*/.Select(f => f.ManifestType).Distinct().ToList();
-        }
-
-        public async Task<Crate<FieldDescriptionsCM>> GetUpstreamManifestListCrate(string label = "AvailableUpstreamManifests")
-        {
-            var manifestList = await GetUpstreamManifestList();
-            var fields = manifestList.Select(f => new FieldDTO(f.Type, f.Id.ToString())).ToArray();
-
-            return Crate<FieldDescriptionsCM>.FromContent(label, new FieldDescriptionsCM(fields));
-        }
-
-        public async Task<List<string>> GetUpstreamCrateLabelList()
-        {
-            var curCrates = await this.GetCratesByDirection<Manifest>(CrateDirection.Upstream);
-            return curCrates/*.Where(x => !BaseTerminalActivity.ExcludedManifestTypes.Contains(x.ManifestType))*/.Select(f => f.Label).Distinct().ToList();
-        }
-        
-        public async Task<Crate<FieldDescriptionsCM>> GetUpstreamCrateLabelListCrate(string label = "AvailableUpstreamLabels")
-        {
-            var labelList = await GetUpstreamCrateLabelList();
-            var fields = labelList.Select(f => new FieldDTO(f, f)).ToArray();
-
-            return Crate<FieldDescriptionsCM>.FromContent(label, new FieldDescriptionsCM (fields));
-        }
     }
 }
