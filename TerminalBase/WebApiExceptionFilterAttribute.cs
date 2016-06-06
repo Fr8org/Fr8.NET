@@ -57,7 +57,7 @@ namespace TerminalBase
             new TelemetryClient().TrackException(curTerminalError, properties);
 
             string userId = null;
-            if(!String.IsNullOrEmpty(actionExecutedContext.ActionContext.ControllerContext.RequestContext.Principal.Identity.AuthenticationType))
+            if(!string.IsNullOrEmpty(actionExecutedContext.ActionContext.ControllerContext.RequestContext.Principal?.Identity?.AuthenticationType))
             {
                 userId = actionExecutedContext.ActionContext.ControllerContext.RequestContext.Principal.Identity.AuthenticationType;
             }
