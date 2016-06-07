@@ -31,7 +31,7 @@ namespace Utilities
                         
                         var uri = line.StartsWith("http") ? line : "http://" + line;
                         
-                        urls.Add(uri + "/terminals/discover");
+                        urls.Add(uri + "/discover");
                     }
                 }
             }
