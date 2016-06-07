@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
 using Fr8Data.DataTransferObjects;
@@ -22,7 +24,11 @@ namespace TerminalBase.Services
             CrateManager = crateManager;
         }
 
-        public async Task<object> HandleFr8Request(string curTerminal, string curActionPath, Fr8DataDTO curDataDTO)
+        public async Task<object> HandleFr8Request(
+            string curTerminal,
+            string curActionPath,
+            IEnumerable<KeyValuePair<string, string>> parameters,
+            Fr8DataDTO curDataDTO)
         {
             if (curDataDTO == null)
             {
@@ -75,6 +81,10 @@ namespace TerminalBase.Services
 
             ContainerExecutionContext executionContext;
 
+            var scope = parameters.Any(x => x.Key == "scope")
+                ? parameters.First(x => x.Key == "scope").Value
+                : null;
+
             switch (curActionPath.ToLower())
             {
                 case "configure":
@@ -90,14 +100,18 @@ namespace TerminalBase.Services
                     return SerializeResponse(activityContext);
 
                 case "run":
-                    executionContext = await CreateContainerExecutionContext(curDataDTO);
-                    await activity.Run(activityContext, executionContext);
-                    return SerializeResponse(executionContext);
-
-                case "executechildactivities":
-                    executionContext = await CreateContainerExecutionContext(curDataDTO);
-                    await activity.RunChildActivities(activityContext, executionContext);
-                    return SerializeResponse(executionContext);
+                    {
+                        executionContext = await CreateContainerExecutionContext(curDataDTO);
+                        if (scope == "childActivities")
+                        {
+                            await activity.RunChildActivities(activityContext, executionContext);
+                        }
+                        else
+                        {
+                            await activity.Run(activityContext, executionContext);
+                        }
+                        return SerializeResponse(executionContext);
+                    }
 
                 case "documentation":
                     var documentation = await activity.GetDocumentation(activityContext, curDataDTO.ActivityDTO.Documentation);
