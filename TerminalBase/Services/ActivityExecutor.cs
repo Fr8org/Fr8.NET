@@ -81,7 +81,7 @@ namespace TerminalBase.Services
 
             ContainerExecutionContext executionContext;
 
-            var scope = parameters.Any(x => x.Key == "scope")
+            var scope = parameters != null && parameters.Any(x => x.Key == "scope")
                 ? parameters.First(x => x.Key == "scope").Value
                 : null;
 
